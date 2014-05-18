@@ -1,0 +1,5 @@
+# Disable correction of command arguments
+unsetopt correctall
+
+# Prepend Homebrew directories to PATH
+export PATH="/usr/local/sbin:/usr/local/bin:$PATH"

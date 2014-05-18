@@ -1,0 +1,9 @@
+[user]
+  name = Nick Dainty
+  email = nickdainty@gmail.com
+[push]
+  default = upstream
+[alias]
+  aa = add --all
+  d = diff
+  dc = diff --cached

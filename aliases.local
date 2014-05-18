@@ -1,0 +1,2 @@
+# Create tags for Ruby projects
+alias tag-project='ctags --recurse --exclude="*.js" . $(bundle list --paths)'
