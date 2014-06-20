@@ -8,3 +8,4 @@ install ruby-build
 install tmux
 install vim
 install zsh
+install macvim
