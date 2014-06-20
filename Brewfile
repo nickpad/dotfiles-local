@@ -9,3 +9,4 @@ install tmux
 install vim
 install zsh
 install macvim
+install the_silver_searcher
