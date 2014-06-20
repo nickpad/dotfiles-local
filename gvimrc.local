@@ -1,0 +1,5 @@
+" Font
+set guifont=Source\ Code\ Pro:h13
+
+" Colour scheme
+colorscheme github
