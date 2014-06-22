@@ -1,0 +1,2 @@
+" Lookup word under cursor using Dash
+nmap <silent> <leader>h <Plug>DashSearch
