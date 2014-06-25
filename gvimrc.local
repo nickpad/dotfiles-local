@@ -2,4 +2,5 @@
 set guifont=Source\ Code\ Pro:h13
 
 " Colour scheme
-colorscheme github
+set background=dark
+colorscheme base16-monokai
