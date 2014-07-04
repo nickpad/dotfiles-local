@@ -6,4 +6,4 @@ export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
-cdpath=($HOME/code)
+export CDPATH="$HOME/code"
