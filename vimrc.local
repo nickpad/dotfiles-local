@@ -1,2 +1,5 @@
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
+
+" Enable neocomplcache plugin
+let g:neocomplcache_enable_at_startup = 1
