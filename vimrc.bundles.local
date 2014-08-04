@@ -1,5 +1,7 @@
+Bundle "Shougo/neocomplcache.vim"
 Bundle "SirVer/ultisnips"
 Bundle "chriskempson/base16-vim"
+Bundle "kana/vim-textobj-user"
+Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "pangloss/vim-javascript"
 Bundle "rizzatti/dash.vim"
-Bundle "Shougo/neocomplcache.vim"
