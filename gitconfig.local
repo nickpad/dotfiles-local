@@ -8,3 +8,4 @@
   d = diff
   dc = diff --cached
   checkout-remote-branch = !sh -c 'git checkout --track -b $1 origin/$1' -
+  cleanup = !git remote prune origin && git gc && git clean -dfx && git stash clear
