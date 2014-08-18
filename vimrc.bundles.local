@@ -1,8 +1,8 @@
-Bundle "Shougo/neocomplete.vim"
-Bundle "SirVer/ultisnips"
-Bundle "chriskempson/base16-vim"
-Bundle "kana/vim-textobj-user"
-Bundle "nelstrom/vim-textobj-rubyblock"
-Bundle "pangloss/vim-javascript"
-Bundle "rizzatti/dash.vim"
-Bundle "nanotech/jellybeans.vim"
+Bundle 'Shougo/neocomplete.vim'
+Bundle 'SirVer/ultisnips'
+Bundle 'chriskempson/base16-vim'
+Bundle 'kana/vim-textobj-user'
+Bundle 'nanotech/jellybeans.vim'
+Bundle 'nelstrom/vim-textobj-rubyblock'
+Bundle 'pangloss/vim-javascript'
+Bundle 'rizzatti/dash.vim'
