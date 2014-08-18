@@ -1,5 +1,16 @@
+function! ToggleBackground()
+  if &background == "light"
+    set background=dark
+  else
+    set background=light
+  endif
+endfunction
+
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
 
 " Enable neocomplete plugin
 let g:neocomplete#enable_at_startup = 1
+
+" Toggle between light and dark backgrounds
+nmap <leader>b :call ToggleBackground()<CR>
