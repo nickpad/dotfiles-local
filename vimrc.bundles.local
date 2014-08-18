@@ -1,4 +1,4 @@
-Bundle "Shougo/neocomplcache.vim"
+Bundle "Shougo/neocomplete.vim"
 Bundle "SirVer/ultisnips"
 Bundle "chriskempson/base16-vim"
 Bundle "kana/vim-textobj-user"
