@@ -1,6 +1,7 @@
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'SirVer/ultisnips'
 Bundle 'chriskempson/base16-vim'
+Bundle 'jonathanfilip/vim-lucius'
 Bundle 'kana/vim-textobj-user'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'nelstrom/vim-textobj-rubyblock'
