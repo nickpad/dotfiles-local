@@ -1,3 +1,4 @@
+" Toggle between light and dark backgrounds
 function! ToggleBackground()
   if &background == "light"
     set background=dark
@@ -11,9 +12,6 @@ nmap <silent> <leader>h <Plug>DashSearch
 
 " Enable neocomplete plugin
 let g:neocomplete#enable_at_startup = 1
-
-" Toggle between light and dark backgrounds
-nmap <leader>b :call ToggleBackground()<CR>
 
 set hidden
 set relativenumber
