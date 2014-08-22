@@ -4,3 +4,6 @@ set guifont=Source\ Code\ Pro:h14
 " Colour scheme
 set background=dark
 colorscheme jellybeans
+
+" Allow key bindings to use the option key
+set macmeta
