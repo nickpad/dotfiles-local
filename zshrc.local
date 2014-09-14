@@ -1,8 +1,8 @@
 # Disable correction of command arguments
 unsetopt correctall
 
-# Prepend Homebrew directories to PATH
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+# Prepend Homebrew and rbenv directories to PATH
+export PATH="/usr/local/sbin:/usr/local/bin:$HOME/.rbenv/shims:$PATH"
 
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
