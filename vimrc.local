@@ -1,11 +1,5 @@
-" Toggle between light and dark backgrounds
-function! ToggleBackground()
-  if &background == "light"
-    set background=dark
-  else
-    set background=light
-  endif
-endfunction
+set hidden
+set relativenumber
 
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
@@ -16,5 +10,9 @@ nmap <silent> <leader>n :TagbarToggle<CR>
 " Enable neocomplete plugin
 let g:neocomplete#enable_at_startup = 1
 
-set hidden
-set relativenumber
+" Set color scheme
+set bg=dark
+colorscheme jellybeans
+
+" Run specs using vim-dispatch
+let g:rspec_command = "Dispatch rspec {spec}"
