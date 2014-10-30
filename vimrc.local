@@ -21,3 +21,6 @@ let g:rspec_command = "Dispatch rspec {spec}"
 let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
+
+let g:syntastic_ruby_checkers = ['mri']
+let g:syntastic_error_symbol = "✗"
