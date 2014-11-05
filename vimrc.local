@@ -24,3 +24,9 @@ nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 let g:syntastic_ruby_checkers = ['mri']
 let g:syntastic_error_symbol = "✗"
+
+" Automatically reload files changed outside of vim
+set autoread
+
+" Write files when changing buffer, suspending vim, etc
+set autowriteall
