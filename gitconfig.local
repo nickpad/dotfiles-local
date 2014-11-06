@@ -10,3 +10,5 @@
   cleanup = !git remote prune origin && git gc && git clean -dfx && git stash clear
   test-feature = !sh -c 'git checkout develop && git pull && git merge --ff --no-edit $1 && git push && git checkout @{-1}' -
   checkout-feature = !sh -c 'git checkout --track -b $1 origin/$1' -
+  wip = !git add --all && git commit --message '[work in progress]'
+  unwip = reset --soft HEAD~1
