@@ -17,6 +17,9 @@ colorscheme jellybeans
 " Run specs using vim-dispatch
 let g:rspec_command = "Dispatch rspec {spec}"
 
+" Add mapping for running all specs
+map <Leader>a :call RunAllSpecs()<CR>
+
 " Yankstack plugin mappings
 let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
