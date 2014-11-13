@@ -1,5 +1,6 @@
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'SirVer/ultisnips'
+Plugin 'bling/vim-airline'
 Plugin 'elixir-lang/vim-elixir'
 Plugin 'kana/vim-textobj-user'
 Plugin 'majutsushi/tagbar'
