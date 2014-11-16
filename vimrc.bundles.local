@@ -1,4 +1,5 @@
 Plugin 'Shougo/neocomplete.vim'
+Plugin 'Shougo/vimproc.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'bling/vim-airline'
 Plugin 'elixir-lang/vim-elixir'
