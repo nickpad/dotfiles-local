@@ -4,9 +4,6 @@ set relativenumber
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
 
-" Toggle tagbar window
-nmap <silent> <leader>n :TagbarToggle<CR>
-
 " Enable neocomplete plugin
 let g:neocomplete#enable_at_startup = 1
 
