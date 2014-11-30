@@ -1,18 +1,23 @@
+" vim:fdm=marker
+
+" {{{ General settings
 set hidden
 set relativenumber
 
-" Lookup word under cursor using Dash
-nmap <silent> <leader>h <Plug>DashSearch
+" Automatically reload files changed outside of vim
+set autoread
 
-" Enable neocomplete plugin
-let g:neocomplete#enable_at_startup = 1
+" Write files when changing buffer, suspending vim, etc
+set autowriteall
 
 " Set color scheme
 set bg=dark
 colorscheme jellybeans
+" }}}
 
-" Run specs using vim-dispatch
-let g:rspec_command = "Dispatch rspec {spec}"
+" {{{ Plugin key mappings
+" Lookup word under cursor using Dash
+nmap <silent> <leader>h <Plug>DashSearch
 
 " Add mapping for running all specs
 map <Leader>a :call RunAllSpecs()<CR>
@@ -21,16 +26,23 @@ map <Leader>a :call RunAllSpecs()<CR>
 let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
+" }}}
 
+" {{{ Plugin settings
+" Enable neocomplete plugin
+let g:neocomplete#enable_at_startup = 1
+
+" Run specs using vim-dispatch
+let g:rspec_command = "Dispatch rspec {spec}"
+
+" Syntastic settings
 let g:syntastic_ruby_checkers = ['mri']
 let g:syntastic_error_symbol = "✗"
-
-" Automatically reload files changed outside of vim
-set autoread
-
-" Write files when changing buffer, suspending vim, etc
-set autowriteall
 
 " Don't show airline "separator" characters
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+
+" Disable special "separator" chars for tmuxline
+let g:tmuxline_powerline_separators = 0
+" }}}
