@@ -1,8 +1,8 @@
 tap thoughtbot/formulae
 install rcm
 
+install awscli
 install git
-install macvim
 install postgresql
 install rbenv
 install reattach-to-user-namespace
