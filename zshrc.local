@@ -7,3 +7,6 @@ export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME/code"
+
+# Reinteractive Sentinel
+[[ -f $HOME/.sentinel/current/bin/sentinel ]] && eval "$($HOME/.sentinel/current/bin/sentinel init -)"
