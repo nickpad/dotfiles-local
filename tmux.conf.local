@@ -1,3 +1,9 @@
+# Set the prefix to Ctrl-S
+unbind C-a
+set -g prefix C-s
+
+# Make it possible to use commands like pbcopy, pbpaste, open, etc.
 set-option -g default-command "reattach-to-user-namespace -l zsh"
 
+# Load tmuxline configuration
 if-shell "test -f $HOME/.tmux/tmuxline.conf" "source $HOME/.tmux/tmuxline.conf"
