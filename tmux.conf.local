@@ -7,7 +7,3 @@ set-option -g default-command "reattach-to-user-namespace -l zsh"
 
 # Load tmuxline configuration
 if-shell "test -f $HOME/.tmux/tmuxline.conf" "source $HOME/.tmux/tmuxline.conf"
-
-# Customise key bindings for splitting windows
-bind-key - split-window -v  -c '#{pane_current_path}'
-bind-key \ split-window -h  -c '#{pane_current_path}'
