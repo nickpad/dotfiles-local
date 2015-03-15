@@ -1,6 +1,4 @@
 Bundle 'jgdavey/tslime.vim'
-Plugin 'Shougo/neocomplete.vim'
-Plugin 'Shougo/vimproc.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'edkolev/tmuxline.vim'

@@ -44,9 +44,6 @@ au FileType go nmap <leader>t <Plug>(go-test)
 " {{{ Plugin settings
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
-" Enable neocomplete plugin
-let g:neocomplete#enable_at_startup = 1
-
 " Syntastic settings
 let g:syntastic_ruby_checkers = ['mri']
 let g:syntastic_error_symbol = "✗"
