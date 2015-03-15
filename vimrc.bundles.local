@@ -1,7 +1,6 @@
 Bundle 'jgdavey/tslime.vim'
 Plugin 'SirVer/ultisnips'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'edkolev/tmuxline.vim'
 Plugin 'fatih/vim-go'
 Plugin 'kana/vim-textobj-user'
 Plugin 'maxbrunsfeld/vim-yankstack'
