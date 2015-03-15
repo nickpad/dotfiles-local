@@ -10,9 +10,9 @@ set autoread
 " Write files when changing buffer, suspending vim, etc
 set autowriteall
 
-" Set color scheme
-set bg=dark
-colorscheme jellybeans
+" Colour scheme
+set background=light
+colorscheme solarized
 " }}}
 
 " {{{ Plugin key mappings
@@ -45,10 +45,6 @@ let g:rspec_command = "Dispatch rspec {spec}"
 " Syntastic settings
 let g:syntastic_ruby_checkers = ['mri']
 let g:syntastic_error_symbol = "✗"
-
-" Don't show airline "separator" characters
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
 
 " Disable special "separator" chars for tmuxline
 let g:tmuxline_powerline_separators = 0
