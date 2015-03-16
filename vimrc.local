@@ -13,12 +13,6 @@ set autowriteall
 " Colour scheme
 set background=light
 colorscheme solarized
-
-" Awesome dynamic splits
-set winwidth=84
-set winheight=5
-set winminheight=5
-set winheight=999
 " }}}
 
 " {{{ Plugin key mappings
@@ -42,7 +36,8 @@ au FileType go nmap <leader>t <Plug>(go-test)
 " }}}
 
 " {{{ Plugin settings
-let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
+" Run specs using vim-dispatch
+let g:rspec_command = "Dispatch rspec {spec}"
 
 " Syntastic settings
 let g:syntastic_ruby_checkers = ['mri']
