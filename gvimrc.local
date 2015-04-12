@@ -1,8 +1,5 @@
 " Font
 set guifont=Source\ Code\ Pro:h14
 
-" Github color scheme
-colorscheme github
-
 " Allow key bindings to use the option key
 set macmeta
