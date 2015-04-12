@@ -3,3 +3,6 @@ set guifont=Source\ Code\ Pro:h14
 
 " Allow key bindings to use the option key
 set macmeta
+
+" Hide scroll bar
+set guioptions-=L
