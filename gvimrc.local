@@ -6,3 +6,6 @@ set macmeta
 
 " Hide scroll bar
 set guioptions-=L
+
+" Set color scheme
+colorscheme dracula
