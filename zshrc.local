@@ -8,8 +8,8 @@ export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME/code"
 
-# Use MacVim as EDITOR
-export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
+# Use MacVim as Git editor
+export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
 
 # Configure Go workspace directory
 export GOPATH="$HOME/goworkspace"
