@@ -1,5 +1,5 @@
 " Font
-set guifont=Source\ Code\ Pro:h13
+set guifont=Consolas:h14
 
 " Allow key bindings to use the option key
 set macmeta
