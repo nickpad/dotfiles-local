@@ -1,11 +1,8 @@
 " Font
-set guifont=Consolas:h14
+set guifont=Consolas:h15
 
 " Allow key bindings to use the option key
 set macmeta
 
 " Hide scroll bar
 set guioptions-=L
-
-" Set color scheme
-colorscheme dracula
