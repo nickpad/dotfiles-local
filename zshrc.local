@@ -12,9 +12,6 @@ eval "$(rbenv init - zsh --no-rehash)"
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME/code"
 
-# Use MacVim as Git editor
-export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
-
 # Configure Go workspace directory
 export GOPATH="$HOME/goworkspace"
 
