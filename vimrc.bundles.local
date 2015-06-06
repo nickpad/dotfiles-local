@@ -7,5 +7,6 @@ Plug 'nelstrom/vim-textobj-rubyblock'
 Plug 'pangloss/vim-javascript'
 Plug 'rizzatti/dash.vim'
 Plug 'skwp/greplace.vim'
+Plug 'stefanoverna/vim-i18n'
 Plug 'tpope/vim-dispatch'
 Plug 'zenorocha/dracula-theme', {'rtp': 'vim/'}
