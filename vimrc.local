@@ -27,12 +27,6 @@ let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
 nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
-" vim-go plugin mappings
-au FileType go nmap <Leader>e <Plug>(go-rename)
-au FileType go nmap <Leader>s <Plug>(go-implements)
-au FileType go nmap <leader>c <Plug>(go-coverage)
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>t <Plug>(go-test)
 " }}}
 
 " {{{ Plugin settings
@@ -45,10 +39,4 @@ let g:syntastic_error_symbol = "✗"
 
 " Disable special "separator" chars for tmuxline
 let g:tmuxline_powerline_separators = 0
-
-" vim-go settings
-let g:go_fmt_command = "goimports"
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
 " }}}
