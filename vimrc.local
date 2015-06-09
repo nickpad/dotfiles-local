@@ -11,7 +11,7 @@ set autoread
 set autowriteall
 
 " Solarized color scheme
-set bg=light
+set bg=dark
 colorscheme solarized
 " }}}
 
