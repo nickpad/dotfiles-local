@@ -11,6 +11,3 @@ eval "$(rbenv init - zsh --no-rehash)"
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME/code"
-
-# Configure Go workspace directory
-export GOPATH="$HOME/goworkspace"
