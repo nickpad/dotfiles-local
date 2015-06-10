@@ -4,10 +4,6 @@ unsetopt correctall
 # Prepend Homebrew directories to PATH
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
-# Prepend rbenv directory to PATH and initialize rbenv
-export PATH="$HOME/.bin:$PATH"
-eval "$(rbenv init - zsh --no-rehash)"
-
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME/code"
