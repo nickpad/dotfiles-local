@@ -14,6 +14,3 @@ export CDPATH="$HOME/code"
 
 # Configure Go workspace directory
 export GOPATH="$HOME/goworkspace"
-
-# Reinteractive Sentinel
-[[ -f $HOME/.sentinel/current/bin/sentinel ]] && eval "$($HOME/.sentinel/current/bin/sentinel init -)"
