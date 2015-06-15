@@ -3,4 +3,4 @@ unsetopt correctall
 
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
-export CDPATH="$HOME/code"
+export CDPATH="$HOME"
