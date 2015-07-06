@@ -33,8 +33,10 @@ vmap <Leader>dt :call I18nDisplayTranslation()<CR>
 " }}}
 
 " {{{ Plugin settings
-" Run specs using vim-dispatch
-let g:rspec_command = "Dispatch rspec {spec}"
+if !has("gui_running")
+  " Run specs using vim-dispatch
+  let g:rspec_command = "Dispatch rspec {spec}"
+endif
 
 " Syntastic settings
 let g:syntastic_ruby_checkers = ['mri']
