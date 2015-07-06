@@ -1,6 +1,6 @@
 " vim:fdm=marker
 
-set guifont=Menlo:h14
+set guifont=Menlo:h13
 
 " Hide scroll bar
 set guioptions-=L
