@@ -1,8 +1,6 @@
-" Font
-set guifont=Consolas:h15
+" vim:fdm=marker
 
-" Allow key bindings to use the option key
-set macmeta
+set guifont=Menlo:h14
 
 " Hide scroll bar
 set guioptions-=L

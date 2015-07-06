@@ -12,7 +12,7 @@ set autowriteall
 
 " Solarized color scheme
 set bg=dark
-colorscheme solarized
+colorscheme gotham
 " }}}
 
 " {{{ Plugin key mappings
