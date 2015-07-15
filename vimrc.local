@@ -13,6 +13,9 @@ set autowriteall
 " Gotham color scheme
 set bg=dark
 colorscheme gotham
+
+" Use HTML syntax for EJS templates
+au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
 " {{{ Plugin key mappings
