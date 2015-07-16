@@ -42,7 +42,7 @@ if !has("gui_running")
 endif
 
 " Syntastic settings
-let g:syntastic_ruby_checkers = ['mri']
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_error_symbol = "✗"
 
 " Disable special "separator" chars for tmuxline
