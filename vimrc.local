@@ -14,11 +14,14 @@ set autowriteall
 set bg=dark
 colorscheme solarized
 
-" Use HTML syntax for EJS templates
-au BufNewFile,BufRead *.ejs set filetype=html
-
 " Bind K to grep word under cursor
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+" Toggle search highlighting
+nnoremap <Leader>s :set hlsearch!<CR>
+
+" Use HTML syntax for EJS templates
+au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
 " {{{ Plugin key mappings
