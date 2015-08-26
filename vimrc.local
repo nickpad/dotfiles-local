@@ -18,7 +18,7 @@ colorscheme solarized
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 " Toggle search highlighting
-nnoremap <Leader>s :set hlsearch!<CR>
+nnoremap <Leader>c :set hlsearch!<CR>
 
 " Use HTML syntax for EJS templates
 au BufNewFile,BufRead *.ejs set filetype=html
