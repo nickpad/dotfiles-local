@@ -11,7 +11,7 @@ set autoread
 set autowriteall
 
 " Solarized color scheme
-set bg=dark
+set bg=light
 colorscheme solarized
 
 " Bind K to grep word under cursor
