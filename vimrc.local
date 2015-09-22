@@ -12,7 +12,7 @@ set autowriteall
 
 " Solarized color scheme
 set bg=light
-colorscheme solarized
+colorscheme PaperColor
 
 " Bind K to grep word under cursor
 nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
