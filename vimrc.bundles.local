@@ -1,3 +1,4 @@
+Plug 'AndrewRadev/splitjoin.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'kana/vim-textobj-user'
