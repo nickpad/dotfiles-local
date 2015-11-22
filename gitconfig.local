@@ -2,7 +2,7 @@
   name = Nick Dainty
   email = nickdainty@gmail.com
 [push]
-  default = upstream
+  default = current
 [alias]
   aa = add --all
   d = diff
