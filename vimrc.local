@@ -38,6 +38,9 @@ nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 " Fugitive plugin mappings
 nmap <leader>g :Gstatus<CR>
+
+" CtrlP
+nnoremap <leader>f :CtrlPTag<CR>
 " }}}
 
 " {{{ Plugin settings
