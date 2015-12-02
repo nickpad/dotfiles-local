@@ -41,6 +41,10 @@ nmap <leader>g :Gstatus<CR>
 
 " CtrlP
 nnoremap <leader>f :CtrlPTag<CR>
+
+" CtrlP tjump
+nnoremap <c-]> :CtrlPtjump<cr>
+vnoremap <c-]> :CtrlPtjumpVisual<cr>
 " }}}
 
 " {{{ Plugin settings
