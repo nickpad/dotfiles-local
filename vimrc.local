@@ -50,7 +50,7 @@ vnoremap <c-]> :CtrlPtjumpVisual<cr>
 " {{{ Plugin settings
 if !has("gui_running")
   " Run specs using vim-dispatch
-  let g:rspec_command = "Dispatch rspec {spec}"
+  let g:rspec_command = "VimuxRunCommand \"rspec {spec}\""
 endif
 
 " Syntastic settings
