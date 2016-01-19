@@ -45,6 +45,9 @@ nnoremap <leader>f :CtrlPTag<CR>
 " CtrlP tjump
 nnoremap <c-]> :CtrlPtjump<cr>
 vnoremap <c-]> :CtrlPtjumpVisual<cr>
+
+" Tagbar
+nmap <F6> :TagbarToggle<CR>
 " }}}
 
 " {{{ Plugin settings
