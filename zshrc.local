@@ -4,3 +4,10 @@ unsetopt correctall
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME"
+
+# Configure node version manager (NVM)
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
+
+# Add local npm binaries to path
+export PATH=$PATH:"./node_modules/.bin"
