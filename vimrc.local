@@ -24,6 +24,14 @@ nnoremap <Leader>c :set hlsearch!<CR>
 au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
+" {{{ Neovim key mappings
+tnoremap <C-h> <C-\><C-n><C-w>h
+tnoremap <C-j> <C-\><C-n><C-w>j
+tnoremap <C-k> <C-\><C-n><C-w>k
+tnoremap <C-l> <C-\><C-n><C-w>l
+tnoremap <leader>n <C-\><C-n>
+" }}}
+
 " {{{ Plugin key mappings
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
