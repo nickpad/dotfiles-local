@@ -11,3 +11,6 @@ export NVM_DIR=~/.nvm
 
 # Add local npm binaries to path
 export PATH=$PATH:"./node_modules/.bin"
+
+# Enable 24 bit colour in Neovim
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
