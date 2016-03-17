@@ -57,9 +57,9 @@ vnoremap <c-]> :CtrlPtjumpVisual<cr>
 " }}}
 
 " {{{ Plugin settings
-if !has("gui_running")
-  " Run specs using vim-dispatch
-  let g:rspec_command = "VimuxRunCommand \"rspec {spec}\""
+if has("nvim")
+  " Run tests using neoterm
+  let test#strategy = "neoterm"
 endif
 
 " CtrlP settings
