@@ -24,6 +24,7 @@ au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
 " {{{ Neovim terminal settings
+nmap <leader>n :Tnew<cr>
 tnoremap <C-h> <C-\><C-n><C-w>h
 tnoremap <C-j> <C-\><C-n><C-w>j
 tnoremap <C-k> <C-\><C-n><C-w>k
