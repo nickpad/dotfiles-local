@@ -14,3 +14,7 @@ export PATH=$PATH:"./node_modules/.bin"
 
 # Enable 24 bit colour in Neovim
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+# Set TERMINFO to fix issue described here:
+# https://github.com/neovim/neovim/issues/2048#issuecomment-187227417
+export TERMINFO="$HOME/.terminfo"
