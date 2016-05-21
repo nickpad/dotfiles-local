@@ -93,3 +93,11 @@ let g:jsx_ext_required = 0
 " Disable special "separator" chars for tmuxline
 let g:tmuxline_powerline_separators = 0
 " }}}
+
+" {{{ Per-project configuration
+" Load a .nvimrc file in the current directory, if it exists.
+set exrc
+
+" Don't allow anything after this to do dangerous stuff.
+set secure
+" }}}
