@@ -39,9 +39,6 @@ autocmd BufEnter * if &buftype == 'terminal' | :startinsert | endif
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
 
-" Add mapping for running all specs
-map <Leader>a :call RunAllSpecs()<CR>
-
 " Yankstack plugin mappings
 let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
