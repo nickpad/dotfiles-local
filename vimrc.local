@@ -31,8 +31,11 @@ tnoremap <C-k> <C-\><C-n><C-w>k
 tnoremap <C-l> <C-\><C-n><C-w>l
 tnoremap <C-g> <C-\><C-n>
 
-highlight TermCursor ctermfg=red guifg=red
-autocmd BufEnter * if &buftype == 'terminal' | :startinsert | endif
+" Go straight into insert mode
+let g:neoterm_autoinsert = 1
+
+" Close a terminal opened via neoterm
+nmap <silent> <leader>x :call neoterm#close()<cr>
 " }}}
 
 " {{{ Plugin key mappings
