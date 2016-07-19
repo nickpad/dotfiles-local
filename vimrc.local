@@ -10,6 +10,10 @@ set autoread
 " Write files when changing buffer, suspending vim, etc
 set autowriteall
 
+" Use a slightly longer line length than the default setting of 80 in the
+" thoughtbot dotfiles.
+set textwidth=100
+
 " Configure color scheme
 set background=dark
 colorscheme OceanicNext
