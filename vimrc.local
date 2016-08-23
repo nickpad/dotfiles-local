@@ -4,6 +4,9 @@
 set hidden
 set relativenumber
 
+" Use 24-bit colour
+set termguicolors
+
 " Automatically reload files changed outside of vim
 set autoread
 
