@@ -77,7 +77,7 @@ nnoremap <Leader>m :CtrlPBufTag<CR>
 
 " Syntastic settings
 function SetJavascriptCheckers()
-  if findfile('.eslintrc', '.;') != ''
+  if findfile('package.json', '.;') != ''
     let g:syntastic_javascript_checkers = ['eslint', 'flow']
   endif
 endfunction
@@ -91,7 +91,6 @@ endfunction
 autocmd FileType javascript :call SetJavascriptCheckers()
 autocmd FileType ruby :call SetRubyCheckers()
 
-let g:syntastic_javascript_eslint_exec = './node_modules/.bin/eslint'
 let g:syntastic_error_symbol = "✗"
 let g:syntastic_ignore_files = ['\mdb/schema.rb$']
 
