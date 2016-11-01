@@ -5,27 +5,9 @@ unsetopt correctall
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME"
 
-# Configure node version manager (NVM)
-export NVM_DIR=~/.nvm
-. $(brew --prefix nvm)/nvm.sh
-
 # Add local npm binaries to path
 export PATH=$PATH:"./node_modules/.bin"
 
 # Set TERMINFO to fix issue described here:
 # https://github.com/neovim/neovim/issues/2048#issuecomment-187227417
 export TERMINFO="$HOME/.terminfo"
-
-# Switch Node version if a ".nvrmc" file exists in the current directory
-# https://github.com/creationix/nvm#zsh
-autoload -U add-zsh-hook
-load-nvmrc() {
-  if [[ -f .nvmrc && -r .nvmrc ]]; then
-    nvm use
-  elif [[ $(nvm version) != $(nvm version default)  ]]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
