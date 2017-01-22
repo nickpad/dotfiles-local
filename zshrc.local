@@ -8,9 +8,6 @@ export CDPATH="$HOME"
 # Add local npm binaries to path
 export PATH=$PATH:"./node_modules/.bin"
 
-# Add composer (php) binaries to path:
-export PATH=$PATH:"$HOME/.composer/vendor/bin"
-
 # Set TERMINFO to fix issue described here:
 # https://github.com/neovim/neovim/issues/2048#issuecomment-187227417
 export TERMINFO="$HOME/.terminfo"
