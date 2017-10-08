@@ -14,3 +14,6 @@ export PATH=$PATH:$HOME/.composer/vendor/bin
 # Set TERMINFO to fix issue described here:
 # https://github.com/neovim/neovim/issues/2048#issuecomment-187227417
 export TERMINFO="$HOME/.terminfo"
+
+# ASDF version manager
+source /usr/local/opt/asdf/asdf.sh
