@@ -31,25 +31,7 @@ nnoremap <Leader>c :set hlsearch!<CR>
 au BufNewFile,BufRead *.ejs set filetype=html
 " }}}
 
-" {{{ Neovim terminal settings
-nmap <leader>n :Tnew<cr>
-tnoremap <C-h> <C-\><C-n><C-w>h
-tnoremap <C-j> <C-\><C-n><C-w>j
-tnoremap <C-k> <C-\><C-n><C-w>k
-tnoremap <C-l> <C-\><C-n><C-w>l
-tnoremap <C-g> <C-\><C-n>
-
-" Go straight into insert mode
-let g:neoterm_autoinsert = 1
-
-" Close a terminal opened via neoterm
-nmap <silent> <leader>x :call neoterm#close()<cr>
-" }}}
-
 " {{{ Plugin key mappings
-" Lookup word under cursor using Dash
-nmap <silent> <leader>h <Plug>DashSearch
-
 " Yankstack plugin mappings
 let g:yankstack_map_keys = 0
 nmap <leader>p <Plug>yankstack_substitute_older_paste
@@ -67,44 +49,14 @@ vnoremap <c-]> :CtrlPtjumpVisual<cr>
 " }}}
 
 " {{{ Plugin settings
-if has("nvim")
-  " Run tests using neoterm
-  let test#strategy = "neoterm"
-endif
-
 " CtrlP settings
 nnoremap <Leader>m :CtrlPBufTag<CR>
 
-" Syntastic settings
-function SetJavascriptCheckers()
-  if findfile('package.json', '.;') != ''
-    let g:syntastic_javascript_checkers = ['eslint', 'flow']
-  endif
-endfunction
-
-function SetRubyCheckers()
-  if findfile('.rubocop.yml', '.;') != ''
-    let g:syntastic_ruby_checkers = ['mri', 'rubocop']
-  endif
-endfunction
-
-autocmd FileType javascript :call SetJavascriptCheckers()
-autocmd FileType ruby :call SetRubyCheckers()
-
-let g:syntastic_error_symbol = "✗"
-let g:syntastic_ignore_files = ['\mdb/schema.rb$']
-
 " Highlight JSX in *.js files
 let g:jsx_ext_required = 0
-
-" Disable special "separator" chars for tmuxline
-let g:tmuxline_powerline_separators = 0
 " }}}
 
 " {{{ Per-project configuration
-" Load a .nvimrc file in the current directory, if it exists.
-set exrc
-
 " Don't allow anything after this to do dangerous stuff.
 set secure
 " }}}
