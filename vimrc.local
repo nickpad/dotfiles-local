@@ -56,6 +56,9 @@ nnoremap <Leader>m :CtrlPBufTag<CR>
 let g:jsx_ext_required = 0
 " }}}
 
+" Lookup word under cursor using Dash
+nmap <silent> <leader>h <Plug>DashSearch
+
 " {{{ Per-project configuration
 " Don't allow anything after this to do dangerous stuff.
 set secure
