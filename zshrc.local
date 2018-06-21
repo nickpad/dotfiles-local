@@ -10,3 +10,6 @@ export PATH=$PATH:"./node_modules/.bin"
 
 # ASDF version manager
 source /usr/local/opt/asdf/asdf.sh
+
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/nick/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
