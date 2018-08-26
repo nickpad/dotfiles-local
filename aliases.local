@@ -3,3 +3,9 @@ alias tag-project='ctags --recurse --exclude="*.js" . $(bundle list --paths)'
 
 # Serve the current directory over http
 alias webrick='ruby -run -ehttpd . -p8000'
+
+# Run a bundle exec command on the vagrant VM
+vb() {
+  CMD="cd /code; bundle exec $@";
+  vagrant ssh -c "$CMD"
+}
