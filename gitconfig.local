@@ -12,3 +12,5 @@
   checkout-feature = !sh -c 'git checkout --track -b $1 origin/$1' -
   wip = !git add --all && git commit --message '[work in progress]'
   unwip = reset --soft HEAD~1
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
