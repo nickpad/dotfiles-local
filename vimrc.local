@@ -59,6 +59,11 @@ let g:jsx_ext_required = 0
 " Lookup word under cursor using Dash
 nmap <silent> <leader>h <Plug>DashSearch
 
+" Use fzf rather than ctrlp
+let g:loaded_ctrlp = 1
+nmap <C-p> :Files<cr>
+nmap <Leader>c :Commits<cr>
+
 " {{{ Per-project configuration
 " Don't allow anything after this to do dangerous stuff.
 set secure
