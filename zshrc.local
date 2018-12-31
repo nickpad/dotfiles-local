@@ -5,6 +5,19 @@ unsetopt correctall
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME"
 
+# Use brew ruby
+export PATH="/usr/local/opt/ruby@2.5/bin":$PATH
+export LDFLAGS=$LDFLAGS:"-L/usr/local/opt/ruby@2.5/lib"
+export CPPFLAGS=$CPPFLAGS:"-I/usr/local/opt/ruby@2.5/include"
+
+# Use brew gems
+export PATH=$PATH:"/usr/local/lib/ruby/gems/2.5.0/bin"
+
+# Use brew node
+export PATH="/usr/local/opt/node@10/bin":$PATH
+export LDFLAGS=$LDFLAGS:"-L/usr/local/opt/node@10/lib"
+export CPPFLAGS=$CPPFLAGS:"-I/usr/local/opt/node@10/include"
+
 # Add local npm binaries to path
 export PATH=$PATH:"./node_modules/.bin"
 
