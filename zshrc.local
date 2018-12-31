@@ -8,5 +8,10 @@ export CDPATH="$HOME"
 # Add local npm binaries to path
 export PATH=$PATH:"./node_modules/.bin"
 
+# Use Homebrew Ruby
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/ruby/lib"
+export CPPFLAGS="-I/usr/local/opt/ruby/include"
+
 # Load fzf shell integration
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
