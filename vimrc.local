@@ -39,25 +39,12 @@ nmap <leader>P <Plug>yankstack_substitute_newer_paste
 
 " Fugitive plugin mappings
 nmap <leader>g :Gstatus<CR>
-
-" CtrlP
-nnoremap <leader>f :CtrlPTag<CR>
-
-" CtrlP tjump
-nnoremap <c-]> :CtrlPtjump<cr>
-vnoremap <c-]> :CtrlPtjumpVisual<cr>
 " }}}
 
 " {{{ Plugin settings
-" CtrlP settings
-nnoremap <Leader>m :CtrlPBufTag<CR>
-
 " Highlight JSX in *.js files
 let g:jsx_ext_required = 0
 " }}}
-
-" Lookup word under cursor using Dash
-nmap <silent> <leader>h <Plug>DashSearch
 
 " Use fzf rather than ctrlp
 let g:loaded_ctrlp = 1
