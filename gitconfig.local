@@ -14,3 +14,4 @@
   unwip = reset --soft HEAD~1
 [core]
   pager = diff-so-fancy | less --tabs=4 -RFX
+  editor = code --wait
