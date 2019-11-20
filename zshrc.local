@@ -1,6 +1,9 @@
 # Disable correction of command arguments
 unsetopt correctall
 
+# Use VS Code as the default editor
+export EDITOR=code
+
 # Modify search path for "cd" command
 # http://robots.thoughtbot.com/cding-to-frequently-used-directories-in-zsh
 export CDPATH="$HOME"
